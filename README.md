@@ -11,6 +11,10 @@ A collection of software engineering tips that I learn every day :fire:
 
 - [Elasticache](aws/ElastiCache.md)
 
+### command
+
+- [Flush Dns Cache](command/flush-dns-cache.md)
+
 ### github
 
 - [Github Actions](github/github-actions.md)
