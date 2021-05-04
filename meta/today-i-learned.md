@@ -1,4 +1,3 @@
 # Today I learned
 
-The inspiration for this repository is [This HN thread](https://news.ycombinator.com/item?id=22908044) for [This repository](https://news.ycombinator.com/item?id=22908044)
-
+이 프로젝트는 [repository](https://github.com/jbranchaud/til)의 영감을 받아 시작했습니다!
