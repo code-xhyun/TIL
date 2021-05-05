@@ -10,6 +10,7 @@ A collection of software engineering tips that I learn every day :fire:
 ### aws
 
 - [Route 53](aws/route-53.md)
+- [Lambda](aws/lambda.md)
 - [Elasticache](aws/ElastiCache.md)
 
 ### command
