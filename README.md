@@ -11,6 +11,7 @@ A collection of software engineering tips that I learn every day :fire:
 
 - [Route 53](aws/route-53.md)
 - [Lambda](aws/lambda.md)
+- [Aurora](aws/aurora.md)
 - [Elasticache](aws/ElastiCache.md)
 
 ### command
