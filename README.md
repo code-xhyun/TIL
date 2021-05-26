@@ -18,6 +18,12 @@ A collection of software engineering tips that I learn every day :fire:
 
 - [Flush Dns Cache](command/flush-dns-cache.md)
 
+### connectivity
+
+- [Kafka](connectivity/kafka.md)
+- [Grpc](connectivity/gRPC.md)
+- [Graphql](connectivity/graphQL.md)
+
 ### github
 
 - [Github Actions](github/github-actions.md)
