@@ -10,13 +10,19 @@ A collection of software engineering tips that I learn every day :fire:
 ### aws
 
 - [Route 53](aws/route-53.md)
-- [Lambda](aws/lambda.md)
 - [Aurora](aws/aurora.md)
 - [Elasticache](aws/ElastiCache.md)
+- [Lambda](aws/lambda.md)
 
 ### command
 
 - [Flush Dns Cache](command/flush-dns-cache.md)
+
+### connectivity
+
+- [Kafka](connectivity/kafka.md)
+- [Grpc](connectivity/gRPC.md)
+- [Graphql](connectivity/graphQL.md)
 
 ### github
 
@@ -25,4 +31,8 @@ A collection of software engineering tips that I learn every day :fire:
 ### meta
 
 - [Today I Learned](meta/today-i-learned.md)
+
+### pattern
+
+- [Monorepo](pattern/monorepo.md)
 
