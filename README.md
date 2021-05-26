@@ -36,3 +36,7 @@ A collection of software engineering tips that I learn every day :fire:
 
 - [Monorepo](pattern/monorepo.md)
 
+### ux
+
+- [과업지향성](ux/과업지향성.md)
+
