@@ -2,8 +2,10 @@
 
 import os
 import datetime
+from pytz import timezone
 
-nowDatetime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+nowDatetime = datetime.datetime.now(
+    timezone('Asia/Seoul')).strftime('%Y-%m-%d %H:%M:%S')
 
 title = """# TIL
 
@@ -44,7 +46,6 @@ def main():
         content += "\n"
 
     meta = """TIL count : {}\n
-
 Last Update Time: {} (KST) 
 
 ---
