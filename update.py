@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 import os
+import datetime
+
 
 
 HEADER = """# TIL
@@ -35,9 +37,11 @@ def main():
 
         for file in files:
             name = os.path.basename(file).split('.')[0]
+            updateTime = datetime.datetime.fromtimestamp(
+                os.path.getmtime(category+"/"+file)).strftime('%Y/%m/%d %H:%M')
             name = " ".join(word.capitalize() for word in name.split('-'))
-            content += "- [{}]({})\n".format(name,
-                                             os.path.join(category, file))
+            content += "- [{}]({})  ({})\n".format(name,
+                                                   os.path.join(category, file), updateTime)
         content += "\n"
 
     with open("README.md", "w") as fd:
