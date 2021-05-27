@@ -5,43 +5,47 @@
 
 A collection of software engineering tips that I learn every day :fire:
 
----
 
+TIL count : 14 
+    Last Update Time: 2021-05-27 15:07:54 (KST) 
+
+    ----
+    
 ### aws
 
-- [Route 53](aws/route-53.md)  (2021/05/27 14:32)
-- [Aurora](aws/aurora.md)  (2021/05/27 14:32)
-- [Elasticache](aws/ElastiCache.md)  (2021/05/27 14:32)
-- [Lambda](aws/lambda.md)  (2021/05/27 14:32)
+- [Route 53](aws/route-53.md)
+- [Aurora](aws/aurora.md)
+- [Elasticache](aws/ElastiCache.md)
+- [Lambda](aws/lambda.md)
 
 ### command
 
-- [Flush Dns Cache](command/flush-dns-cache.md)  (2021/05/27 14:32)
+- [Flush Dns Cache](command/flush-dns-cache.md)
 
 ### connectivity
 
-- [Kafka](connectivity/kafka.md)  (2021/05/27 14:32)
-- [Grpc](connectivity/gRPC.md)  (2021/05/27 14:32)
-- [Graphql](connectivity/graphQL.md)  (2021/05/27 14:32)
+- [Kafka](connectivity/kafka.md)
+- [Grpc](connectivity/gRPC.md)
+- [Graphql](connectivity/graphQL.md)
 
 ### github
 
-- [Github Actions](github/github-actions.md)  (2021/05/27 14:32)
+- [Github Actions](github/github-actions.md)
 
 ### meta
 
-- [Today I Learned](meta/today-i-learned.md)  (2021/05/27 14:32)
+- [Today I Learned](meta/today-i-learned.md)
 
 ### msa
 
-- [Service Mesh](msa/service-mesh.md)  (2021/05/27 14:32)
+- [Service Mesh](msa/service-mesh.md)
 
 ### pattern
 
-- [Monorepo](pattern/monorepo.md)  (2021/05/27 14:32)
+- [Monorepo](pattern/monorepo.md)
 
 ### ux
 
-- [주의 집중 구간](ux/주의-집중-구간.md)  (2021/05/27 14:32)
-- [과업지향성](ux/과업지향성.md)  (2021/05/27 14:32)
+- [주의 집중 구간](ux/주의-집중-구간.md)
+- [과업지향성](ux/과업지향성.md)
 
