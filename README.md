@@ -42,6 +42,6 @@ A collection of software engineering tips that I learn every day :fire:
 
 ### ux
 
+- [주의 집중 구간](ux/주의-집중-구간.md)
 - [과업지향성](ux/과업지향성.md)
-- [주의집중구간](ux/주의집중구간.md)
 
