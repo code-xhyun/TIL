@@ -43,7 +43,8 @@ def main():
                                              os.path.join(category, file))
         content += "\n"
 
-    meta = """TIL count : {} 
+    meta = """TIL count : {}\n
+
 Last Update Time: {} (KST) 
 
 ---
