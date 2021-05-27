@@ -44,9 +44,9 @@ def main():
         content += "\n"
 
     meta = """TIL count : {} 
-    Last Update Time: {} (KST) 
+Last Update Time: {} (KST) 
 
-    ----
+---
     """.format(
         str(count), nowDatetime)
     head = title+meta
