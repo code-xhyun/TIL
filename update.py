@@ -2,10 +2,8 @@
 
 import os
 import datetime
-from pytz import timezone
 
-nowDatetime = datetime.datetime.now(
-    timezone('Asia/Seoul')).strftime('%Y-%m-%d %H:%M:%S')
+nowDatetime = datetime.datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S')
 
 title = """# TIL
 
