@@ -3,7 +3,9 @@
 import os
 import datetime
 
-nowDatetime = datetime.datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S')
+KST = datetime.timezone(datetime.timedelta(hours=9))
+nowDatetime = datetime.datetime.now().astimezone(
+    tz=KST).strftime('%Y-%m-%d %H:%M:%S')
 
 title = """# TIL
 
