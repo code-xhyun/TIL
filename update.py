@@ -3,24 +3,22 @@
 import os
 import datetime
 
+nowDatetime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-
-HEADER = """# TIL
+title = """# TIL
 
 > :alien:Today I Learned:alien:
 
 
 A collection of software engineering tips that I learn every day :fire:
 
----
 
 """
 
 
 def main():
     content = ""
-    content += HEADER
-
+    count = 0
     for root, dirs, files in os.walk("."):
         dirs.sort()
         if root == '.':
@@ -32,20 +30,28 @@ def main():
             continue
 
         category = os.path.basename(root)
-
+        file_list = os.listdir(root)
+        count += len(file_list)
         content += "### {}\n\n".format(category)
 
         for file in files:
             name = os.path.basename(file).split('.')[0]
-            updateTime = datetime.datetime.fromtimestamp(
-                os.path.getmtime(category+"/"+file)).strftime('%Y/%m/%d %H:%M')
+        #     updateTime = datetime.datetime.fromtimestamp(
+        #        os.path.getmtime(category+"/"+file)).strftime('%Y/%m/%d %H:%M')
             name = " ".join(word.capitalize() for word in name.split('-'))
-            content += "- [{}]({})  ({})\n".format(name,
-                                                   os.path.join(category, file), updateTime)
+            content += "- [{}]({})\n".format(name,
+                                             os.path.join(category, file))
         content += "\n"
 
+    meta = """TIL count : {} 
+    Last Update Time: {} (KST) 
+
+    ----
+    """.format(
+        str(count), nowDatetime)
+    head = title+meta
     with open("README.md", "w") as fd:
-        fd.write(content)
+        fd.write(head + "\n" + content)
 
 
 if __name__ == "__main__":
