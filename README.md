@@ -8,7 +8,7 @@ A collection of software engineering tips that I learn every day :fire:
 
 TIL count : 14
 
-Last Update Time: 2021-05-27 15:15:59 (KST) 
+Last Update Time: 2021-05-28 00:19:13 (KST) 
 
 ---
     
