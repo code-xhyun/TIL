@@ -6,18 +6,19 @@
 A collection of software engineering tips that I learn every day :fire:
 
 
-TIL count : 14
+TIL count : 15
 
-Last Update Time: 2021-05-28 00:19:13 (KST) 
+Last Update Time: 2021-06-18 01:35:55 (KST) 
 
 ---
     
 ### aws
 
-- [Route 53](aws/route-53.md)
-- [Aurora](aws/aurora.md)
 - [Elasticache](aws/ElastiCache.md)
+- [Aurora](aws/aurora.md)
 - [Lambda](aws/lambda.md)
+- [Route 53](aws/route-53.md)
+- [Elb](aws/ELB.md)
 
 ### command
 
@@ -25,8 +26,8 @@ Last Update Time: 2021-05-28 00:19:13 (KST)
 
 ### connectivity
 
-- [Kafka](connectivity/kafka.md)
 - [Grpc](connectivity/gRPC.md)
+- [Kafka](connectivity/kafka.md)
 - [Graphql](connectivity/graphQL.md)
 
 ### github
@@ -47,6 +48,6 @@ Last Update Time: 2021-05-28 00:19:13 (KST)
 
 ### ux
 
-- [주의 집중 구간](ux/주의-집중-구간.md)
 - [과업지향성](ux/과업지향성.md)
+- [주의 집중 구간](ux/주의-집중-구간.md)
 
